@@ -10,12 +10,53 @@ import SwiftUI
 
 
 struct CustomisationView: View {
-    @State var counter = 0
     
     var body: some View {
-        Text("\(counter)")
-        Button("Increase Count") {
-            counter += 1
+        Grid {
+            GridRow {
+                HStack {
+                    Image("Launchpad")
+                        .interpolation(.none)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 64, height: 64)
+                    
+                    VStack {
+                        Button(action: {}) {
+                            Text("Customise")
+                                .frame(maxWidth: .infinity)
+                        }
+                        
+                        Text("Changes the default grid layout for Launchpad to custom defined numbers")
+                    }
+                    
+                }
+                .padding()
+                
+                GridRow {
+                    HStack {
+                        Image("Launchpad")
+                            .interpolation(.low)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 64, height: 64)
+                        
+                        VStack {
+                            Button("") {
+                                
+                            }
+                            
+                            Text("Changes the default grid layout for Launchpad to custom defined numbers")
+                        }
+                        
+                    }
+                }
+                .padding()
+                
+                
+            }
+            
+            Spacer()
         }
     }
 }
