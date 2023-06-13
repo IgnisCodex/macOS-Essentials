@@ -13,5 +13,6 @@ struct macOS_EssentialsApp: App {
         WindowGroup {
             NavView()
         }
+        
     }
 }
