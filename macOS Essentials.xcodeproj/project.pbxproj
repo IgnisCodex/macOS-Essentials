@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2B8A39E12A37C7CB00F141EB /* macOS_EssentialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A39E02A37C7CB00F141EB /* macOS_EssentialsApp.swift */; };
-		2B8A39E32A37C7CB00F141EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A39E22A37C7CB00F141EB /* ContentView.swift */; };
+		2B8A39E32A37C7CB00F141EB /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A39E22A37C7CB00F141EB /* NavView.swift */; };
 		2B8A39E52A37C7CF00F141EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8A39E42A37C7CF00F141EB /* Assets.xcassets */; };
 		2B8A39E82A37C7CF00F141EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8A39E72A37C7CF00F141EB /* Preview Assets.xcassets */; };
 		2B8A39F32A37C7D000F141EB /* macOS_EssentialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A39F22A37C7D000F141EB /* macOS_EssentialsTests.swift */; };
 		2B8A39FD2A37C7D000F141EB /* macOS_EssentialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A39FC2A37C7D000F141EB /* macOS_EssentialsUITests.swift */; };
 		2B8A39FF2A37C7D000F141EB /* macOS_EssentialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A39FE2A37C7D000F141EB /* macOS_EssentialsUITestsLaunchTests.swift */; };
+		2B8A3A0C2A384F6100F141EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A3A0B2A384F6100F141EB /* HomeView.swift */; };
+		2B8A3A0E2A386B0C00F141EB /* CustomisationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A3A0D2A386B0C00F141EB /* CustomisationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		2B8A39DD2A37C7CB00F141EB /* macOS Essentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS Essentials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8A39E02A37C7CB00F141EB /* macOS_EssentialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_EssentialsApp.swift; sourceTree = "<group>"; };
-		2B8A39E22A37C7CB00F141EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B8A39E22A37C7CB00F141EB /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		2B8A39E42A37C7CF00F141EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B8A39E72A37C7CF00F141EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B8A39E92A37C7CF00F141EB /* macOS_Essentials.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS_Essentials.entitlements; sourceTree = "<group>"; };
@@ -45,6 +47,8 @@
 		2B8A39F82A37C7D000F141EB /* macOS EssentialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS EssentialsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8A39FC2A37C7D000F141EB /* macOS_EssentialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_EssentialsUITests.swift; sourceTree = "<group>"; };
 		2B8A39FE2A37C7D000F141EB /* macOS_EssentialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_EssentialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B8A3A0B2A384F6100F141EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2B8A3A0D2A386B0C00F141EB /* CustomisationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomisationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				2B8A39E02A37C7CB00F141EB /* macOS_EssentialsApp.swift */,
-				2B8A39E22A37C7CB00F141EB /* ContentView.swift */,
+				2B8A39E22A37C7CB00F141EB /* NavView.swift */,
+				2B8A3A0D2A386B0C00F141EB /* CustomisationView.swift */,
+				2B8A3A0B2A384F6100F141EB /* HomeView.swift */,
 				2B8A39E42A37C7CF00F141EB /* Assets.xcassets */,
 				2B8A39E92A37C7CF00F141EB /* macOS_Essentials.entitlements */,
 				2B8A39E62A37C7CF00F141EB /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B8A39E32A37C7CB00F141EB /* ContentView.swift in Sources */,
+				2B8A3A0C2A384F6100F141EB /* HomeView.swift in Sources */,
+				2B8A39E32A37C7CB00F141EB /* NavView.swift in Sources */,
 				2B8A39E12A37C7CB00F141EB /* macOS_EssentialsApp.swift in Sources */,
+				2B8A3A0E2A386B0C00F141EB /* CustomisationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

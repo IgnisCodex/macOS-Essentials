@@ -11,7 +11,7 @@ import SwiftUI
 struct macOS_EssentialsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavView()
         }
     }
 }
